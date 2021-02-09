@@ -1,4 +1,4 @@
-module github.com/josepht96/simplejs/backend/postgresgo
+module postgres
 
 go 1.14
 
