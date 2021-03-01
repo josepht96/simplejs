@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hello from linux container!')
 })
 
+app.get('/json', (req, res) => {
+  res.json({ field: 'some json stuff' })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
